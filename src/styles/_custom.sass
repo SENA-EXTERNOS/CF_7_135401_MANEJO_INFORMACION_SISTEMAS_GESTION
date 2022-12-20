@@ -3,13 +3,22 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 50%
+    right: 80%
+    width: 22%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 5%
+    right: 41%
+  &-3
+    animation: float1 1.8s ease-in-out infinite alternate
+    position: absolute
+    top: 30%
+    right: 5%    
 
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner-interno.png") !important
+  bottom: -130px   
 
 @keyframes float1
   0%
@@ -17,3 +26,295 @@
 
   100%
     transform: translateY(0px)
+
+//-----------------------------------------    
+
+//---custom bloque texto g---------------------
+.b1.bloque-texto-g__img
+  width: 60%
+  top: 0
+  left: -30px
+  @media screen and ( max-width: 500px )  
+    width: 100%
+    top: 0
+    left: 0
+.b1.bloque-texto-g__texto
+  right: -22px
+  width: 80%
+  @media screen and ( max-width: 500px )
+    right: 0
+    width: 100%
+
+.b2.bloque-texto-g__img
+  width: 60%
+  top: 0
+  left: -30px
+  @media screen and ( max-width: 500px )  
+    width: 100%
+    top: -1px
+    left: 0
+.b2.bloque-texto-g__texto
+  right: 28px;
+  width: 50%;
+  @media screen and ( max-width: 500px )
+    right: 0
+    width: 100%  
+
+.b3.bloque-texto-g__img
+  width: 50%
+  top: 0
+  left: -30px
+  @media screen and ( max-width: 500px )  
+    width: 100%
+    top: -1px
+    left: 0
+.b3.bloque-texto-g__texto
+  right: 28px;
+  width: 60%;
+  @media screen and ( max-width: 500px )
+    right: 0
+    width: 100%   
+
+.bloque-texto-a.color-secundario
+  background-color: #e4e4e4
+
+@media screen and ( max-width: 500px )
+  .bloque-texto-a:before
+    width: 440px
+    height: 330px
+    top: 286px
+    left: 0%
+
+//-------------------------------------------
+
+//viñeta para los títulos------------------------------------------------------------
+.vineta-titulos
+  background: url("../assets/curso/temas/icono.svg") !important
+  background-repeat: no-repeat !important
+
+.h2-vineta
+  margin-left: 2%
+  margin-top: -2px  
+//-------------------------------------------------------------------------------------- 
+
+//estilo cajon punto caliente tema 1
+.estilo-cajon
+  background-color: #ffffff
+//-----------------------------------    
+
+//custom para cajones de colores------------------------- 
+.cajon.color-1
+    background-color: #fdf5af
+.cajon.color-1:before
+    background-color: #febf10 
+.cajon.color-2
+  background-color: #ffebf1
+.cajon.color-2:before
+    background-color: #ff004c
+    
+//---------------------------------------------------------  
+
+//---custom tarjeta slyder--------------------------
+.carrusel1
+  background-color: #eeeffb
+  border-radius: 20px !important
+  width: 190px !important
+  height: 230px !important
+  position: relative;
+  @media screen and ( max-width: 500px )
+    width: 190px;
+    height: 230px;
+    position: relative;
+    left: 25%; 
+//------------------------------------------------
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #f6f6f6
+
+.acordion__accion__btn--a
+  background-color: #e8e1f6 !important
+
+.acordion__activo
+  background-color: #eeeffb !important
+
+.acordion__accion__btn--a i
+  color: #242ca3
+
+/*.acordion__accion__btn--b
+  right: 1400%
+  @media screen and ( max-width: 500px )
+    right: 50%
+//--------------------------------------------------------------------        
+
+//color de fondo TabsA -----------
+.tabs-a__tab
+  background-color: #e8e8e8;
+.colorTab
+  background-color: #eeeffb
+.tabs-a__content-item
+  margin-left: 120px;
+  width: 380px;
+  @media ( max-width: 500px )
+    margin-left: 5%
+    width: 400px
+    margin-bottom: 20px    
+.tabs-a__tab
+  width: 180%
+  @media ( max-width: 500px )
+    width: 100%
+    
+///// Linea tiempo D --------------------------------------
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris, .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+  background-color: #e8e8e8
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #eeeffb
+
+.linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #FEBF10
+  color: #000
+
+//-----------------------------------------
+  
+@media (max-width: 412px)
+  .linea-tiempo-d_itemcontent_title 
+    height: 85px !important 
+//--------------------------------------------------
+
+//--custom tarjeta avatar----------------------
+.t1.tarjeta-avatar
+  width: 105%
+  height: 90%
+  > img
+    width: 40%
+    top: 25px
+  * p
+    margin-top: -25% 
+    margin-bottom: 0px     
+  @media ( max-width: 500px )
+    width: 80%
+    height: 100%
+    left: 10%
+    * p
+      margin-top: 45px !important
+      margin-bottom: 0px   
+
+.tarjeta--amarilla-1
+  background-color: #EEEFFB
+
+.t2.tarjeta-avatar
+  width: 105%
+  height: 90%
+  > img
+    width: 40%
+    top: 25px
+  * p
+    margin-top: -25% 
+    margin-bottom: 0px     
+  @media ( max-width: 500px )
+    width: 80%
+    height: 100%
+    left: 10%
+    * p
+      margin-top: 45px !important
+      margin-bottom: 0px   
+
+.t3.tarjeta-avatar
+  width: 80%
+  height: 100%
+  > img
+    width: 45%
+    top: 25px
+  * p
+    text-align: center
+    margin-top: 20% !important 
+    margin-bottom: 0px     
+  @media ( max-width: 500px )
+    width: 80%
+    height: 100%
+    left: 10%
+    * p
+      margin-top: 30% !important
+      margin-bottom: 0px  
+
+.t4.tarjeta-avatar
+  width: 95%
+  height: 100%
+  > img
+    width: 25%
+    top: 25px
+  * p
+    text-align: center
+    margin-top: 20% !important 
+    margin-bottom: 0px     
+  @media ( max-width: 500px )
+    width: 80%
+    height: 100%
+    left: 10%
+    * p
+      margin-top: 10% !important
+      margin-bottom: 0px             
+
+.tarjeta--amarilla-2
+  background-color: #FFFDEB 
+
+.tarjeta
+  width: 100%     
+//-----------------------------------
+
+//color para viñetas--------------------
+.vineta1
+  color: #FF004C !important
+//---------------------------------------------  
+
+// custom tarjeta slide----------------
+.color-fondo
+  background-color: #FFEBF1
+
+.tarjeta-slide
+  background-color: #FFEBF1
+  border-radius: 20px !important
+  width: 260px !important
+  height: 370px !important
+  position: relative;
+  @media screen and ( max-width: 500px )
+    width: 190px;
+    height: 230px;
+    position: relative;
+    margin-left: 70px; 
+//-------------------------------------------------
+
+//estilos para tarjetas conectadas---------------------
+.color1
+  text-align: center
+  background-color: #E9EEF4
+  h3
+    margin-top: 10% !important 
+    margin-bottom: 0px   
+  p 
+    margin-top: 10% !important 
+  @media ( max-width: 500px )
+    border-top-right-radius: 20px !important
+    border-bottom-right-radius: 0px !important
+    border-bottom-left-radius: 0px !important
+    p
+      margin-top: 5% !important 
+      margin-bottom: 0px      
+
+.color2
+  background-color: #FFEBF1
+  text-align: center  
+  h3
+    margin-top: 10% !important 
+    margin-bottom: 0px   
+  p 
+    margin-top: 3% !important     
+  @media ( max-width: 500px )  
+    border-top-right-radius: 0px !important
+    border-bottom-left-radius: 20px !important  
+    p
+      margin-top: 5% !important 
+      margin-bottom: 0px      
+//-----------------------------------------        
