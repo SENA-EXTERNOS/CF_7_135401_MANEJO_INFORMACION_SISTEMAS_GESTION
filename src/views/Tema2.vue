@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center.align-items-lg-stretch
       .col-lg-5
         figure
-          img(src="@/assets/curso/temas/tema2/t2-1.svg", alt="" data-aos="flip-up")
+          img(src="@/assets/curso/temas/tema2/t2-1.svg", alt="" data-aos="flip-up").mb-3
       .col-lg-7
         p Por otra parte, el cumplimiento de los estándares de calidad aporta al desarrollo de las diferentes organizaciones y a su entorno. Las normas vigentes a partir de 2015, cuentan con una estructura común, cuyo objetivo es el de facilitar la integración de los sistemas para que, de esta forma, el SG actúe como la columna vertebral de todos los procesos organizacionales, evitando reprocesos, desgaste de las diferentes áreas y los posibles incumplimientos u omisiones a los elementos normativos y legales vigentes.        
         p La aplicación de las normas ISO en las empresas, propende por la generación de condiciones para el cumplimiento de los requisitos del cliente y la legislación vigente en los términos que el tipo de norma establezca, de acuerdo con su alcance.
@@ -19,7 +19,7 @@
       .col-lg-10
         .row
           .col-lg-7
-            LineaTiempoD.color-acento-botones
+            LineaTiempoD.color-acento-botones.mb-3
               .row(numero="1" titulo="Proporcionar bienes y servicios de manera regular")
                 p Garantizando continuidad y sostenibilidad a lo largo del tiempo, asegurando el cumplimiento de criterios de calidad en el caso de la 9001.
               .row(numero="2" titulo="Comprometerse")

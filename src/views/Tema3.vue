@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center.align-items-lg-stretch
       .col-lg-5
         figure
-          img(src="@/assets/curso/temas/tema3/t3-1.svg", alt="" data-aos="flip-up")
+          img(src="@/assets/curso/temas/tema3/t3-1.svg", alt="" data-aos="flip-up").mb-3
       .col-lg-7
         p Comencemos con la norma ISO 9001, la cual se fundamenta en un estándar internacional de aplicabilidad para todo tipo de empresas, sin importar su tamaño o actividad económica; dicho estándar ha sido apropiado alrededor del mundo, otorgando resultados confiables en términos de mejoramiento continuo, para las organizaciones que lo implementan. Su función consiste en especificar los requerimientos básicos para realizar el diseño e implantación de un Sistema de Gestión de la Calidad, permitiendo identificar buenas prácticas de la organización, para su gestión y aplicación en diversas áreas. La práctica de la norma puede tener como objetivo, el mejoramiento a nivel interno y la obtención de una certificación, todo depende del interés de la organización que la implementa.
 
@@ -108,8 +108,7 @@
           p.mb-0 Por otro lado, la primera parte de la norma corresponde a una introducción, en la que se hace un esbozo de los antecedentes, principios y elementos conceptuales que componen el Sistema de Gestión y las características principales relacionadas con su lógica de implementación y funcionamiento. Posteriormente, se encuentran los cuatro capítulos que componen la estructura del estándar, así como también los anexos que permiten interpretar, de manera sencilla, la norma y su aplicación en relación con las demás normas relacionadas con la gestión, y que dichas normas se encuentran armonizadas precisamente para que puedan ser fácilmente integradas.
 
     .row.justify-content-center.mb-3.mt-5
-      p El proceso continuo de autoevaluación, también se articula con un enfoque integrado, aportando información vital para reconocer el desempeño, los posibles riesgos, el grado de cumplimiento, las responsabilidades y el nivel en que la organización alcanza sus resultados, en relación con otros momentos de autoevaluación. El paso a seguir, consiste en llevar a cabo la recopilación de información a través de instrumentos cualitativos, tales como observación, reuniones grupales, grupos focales y entrevistas individuales. Una vez recolectada toda la información que alimentará al sistema, se procede a su registro de los hallazgos en la plataforma tecnológica.
-      p Y una vez diseñadas y alimentadas las bases de datos, se procede a realizar un análisis que contiene:
+      p Los cuatro capítulos contemplados en la parte inicial de la norma ISO 14001, resultan de relevancia mayor para su implementación, motivo por el cual, a continuación, se detallan algunas de sus características principales:
       .col-lg-10
         .row
           .col-sm-6.col-lg-3.mb-4.mb-lg-0

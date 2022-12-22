@@ -171,7 +171,7 @@
         p.mt-2 Es a partir de la época industrial, que el concepto se transformó, adaptándose como una actividad humana enfocada a la producción de bienes o a la prestación de servicios, abarcando los diferentes procesos que esto implica.
         p Con la aparición y auge de la ciencia administrativa, se homologaron el vocablo empresa y el de organización por tener lugar en ambas, el proceso administrativo. Entonces se comenzó a hablar de administración de empresas (Ramírez, 2009, p.16).
 
-      p.mt-3 Para conocer la clasificación de las empresas, lo invitamos a ver el siguiente video.
+      p.mt-5 Para conocer la clasificación de las empresas, lo invitamos a ver el siguiente video.
 
       .video
         iframe(data-aos="fade-left" width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
