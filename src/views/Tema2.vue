@@ -12,7 +12,7 @@
         figure
           img(src="@/assets/curso/temas/tema2/t2-1.svg", alt="" data-aos="flip-up").mb-3
       .col-lg-7
-        p Por otra parte, el cumplimiento de los estándares de calidad aporta al desarrollo de las diferentes organizaciones y a su entorno. Las normas vigentes a partir de 2015, cuentan con una estructura común, cuyo objetivo es el de facilitar la integración de los sistemas para que, de esta forma, el SG actúe como la columna vertebral de todos los procesos organizacionales, evitando reprocesos, desgaste de las diferentes áreas y los posibles incumplimientos u omisiones a los elementos normativos y legales vigentes.        
+        p El cumplimiento de los estándares de calidad aporta al desarrollo de las diferentes organizaciones y a su entorno. Las normas vigentes a partir del 2015, cuentan con una estructura común, cuyo objetivo es el de facilitar la integración de los sistemas para que, de esta forma, el SG actúe como la columna vertebral de todos los procesos organizacionales, evitando reprocesos, desgaste de las diferentes áreas y los posibles incumplimientos u omisiones a los elementos normativos y legales vigentes.      
         p La aplicación de las normas ISO en las empresas, propende por la generación de condiciones para el cumplimiento de los requisitos del cliente y la legislación vigente en los términos que el tipo de norma establezca, de acuerdo con su alcance.
 
     .row.justify-content-center.align-items-center.align-items-lg-stretch.mt-5
@@ -40,7 +40,7 @@
         .bloque-texto-g.color-secundario.p-2.p-sm-4.p-md-5
           .b2.bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/t2-3.svg')})`}" data-aos="fade-right")
           .b2.bloque-texto-g__texto.p-4
-            p Ahora, hablaremos de los requisitos legales de los sistemas de gestión, los cuales hacen referencia a los elementos de carácter normativo y que se consideran de estricto cumplimiento, para garantizar el normal desarrollo de los mismos, de acuerdo con la norma ISO que se aplique en la organización.      
+            p Los requisitos legales de los sistemas de gestión hacen referencia a los elementos de carácter normativo y que se consideran de estricto cumplimiento, para garantizar el normal desarrollo de los mismos, de acuerdo con la norma ISO que se aplique en la organización.    
 
     .row.justify-content-center.mt-4
       p Es importante reconocer que una parte fundamental de los procesos relacionados con los sistemas de gestión, tiene que ver con el cumplimiento de la normatividad y requisitos de carácter legal, teniendo en cuenta el enfoque de los sistemas que se han integrado a la organización, además de su actividad económica, cumplimiento de las características del producto o prestación de servicios, normativa laboral, ambiental o de seguridad y salud en las actividades del trabajo.
@@ -58,7 +58,7 @@
           img(src="@/assets/curso/temas/tema2/t2-4.svg", alt="" data-aos="flip-up")
       .col-lg-7.mt-3
         p Luego de conocer los requisitos legales para los diferentes sectores económicos, definamos la Gestión de Riesgo y Cumplimiento (GRC), que cuenta con un elemento esencial que es precisamente el componente tecnológico. La GRC se constituye en un modelo de capacidad que facilita a una organización determinada, el alcance de sus objetivos, reconociendo la incertidumbre y promoviendo la integridad en sus actuaciones. Los principales componentes de la GRC, tienen que ver con el diagnóstico, implementación y la tecnología.
-        p El software a implementar en el proceso de GRC requiere del procesamiento de datos que son objeto de análisis constante, cuya adecuada disposición permitirá a la organización conocer, en tiempo real, el estado de su gestión y la manera en que se encamina hacia la consecución de sus objetivos, además de la identificación de situaciones, eventos o condiciones que reflejen un desempeño no deseado de la organización.
+        p El <b>software</b> a implementar en el proceso de GRC requiere del procesamiento de datos que son objeto de análisis constante, cuya adecuada disposición permitirá a la organización conocer, en tiempo real, el estado de su gestión y la manera en que se encamina hacia la consecución de sus objetivos, además de la identificación de situaciones, eventos o condiciones que reflejen un desempeño no deseado de la organización.
 
 
     .row.justify-content-center.mb-3.mt-3
@@ -92,7 +92,7 @@
     .row.justify-content-center.mt-4
       .col-lg-8.col-xs-6
         .cajon.color-2.p-4.mt-2
-          p.mb-0 Es entonces que, el proceso de implementación y uso de tecnología como parte del GRC, implica mucho más que la simple utilización de un #[i software] particular; debe garantizar la disponibilidad de una estructura digital al interior de la organización, que facilite su diseño e implementación, de manera efectiva.
+          p.mb-0 El proceso de implementación y uso de tecnología como parte del GRC, implica mucho más que la simple utilización de un <i>software</i> particular; debe garantizar la disponibilidad de una estructura digital al interior de la organización, que facilite su diseño e implementación, de manera efectiva. 
 
     .row.justify-content-center.align-items-center.align-items-lg-stretch.mt-5
       p Para la disponibilidad de una estructura digital, se requiere:
@@ -117,7 +117,7 @@
               .row(numero="8" titulo="Mejora continua")
                 p Decidir qué soluciones existentes pueden y deben mejorarse o ampliarse, para aplicar a necesidades similares.
               .row(numero="9" titulo="Soluciones")
-                p Decidir qué nuevas soluciones deben complementar o reemplazar las soluciones existentes, sea para construir, o para comprar nuevas soluciones identificadas.
+                p Decidir qué nuevas soluciones deben complementar o reemplazar las soluciones existentes, sea para construir o para comprar nuevas soluciones identificadas.
           .col-lg-5
             figure
               img(src="@/assets/curso/temas/tema2/t2-9.svg", alt="" data-aos="flip-down")
@@ -133,7 +133,7 @@
 
     .row.justify-content-center.mb-3.mt-3
       p El proceso continuo de autoevaluación, también se articula con un enfoque integrado, aportando información vital para reconocer el desempeño, los posibles riesgos, el grado de cumplimiento, las responsabilidades y el nivel en que la organización alcanza sus resultados, en relación con otros momentos de autoevaluación. El paso a seguir, consiste en llevar a cabo la recopilación de información a través de instrumentos cualitativos, tales como observación, reuniones grupales, grupos focales y entrevistas individuales. Una vez recolectada toda la información que alimentará al sistema, se procede a su registro de los hallazgos en la plataforma tecnológica.
-      p Y una vez diseñadas y alimentadas las bases de datos, se procede a realizar un análisis que contiene:
+      p Una vez diseñadas y alimentadas las bases de datos, se procede a realizar un análisis que contiene:
       .col-lg-10
         .row
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -170,7 +170,7 @@
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5.text-center
-              h1 Control
+              h5 Control
               p El cual limita el acceso a sistemas, aplicaciones y repositorios de información.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/t2-15.svg')})`}")
 
@@ -179,7 +179,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/t2-16.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5.text-center
-              h1 Inspección
+              h5 Inspección
               p Uso de controles que limiten el acceso a componentes de tecnología física como redes, servidores y estaciones de trabajo.
 
       .col-sm-6.col-xl-3.mb-4.mb-sm-0
@@ -187,7 +187,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/t2-17.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5.text-center
-              h1 Controles de configuración
+              h5 Controles de configuración
               p Los cuales impiden o restringen cambios en el #[i hardware], el sistema, y configuraciones de aplicación.
 
     .row.mt-3.justify-content-center.align-items-center.align-items-lg-stretch
@@ -196,7 +196,7 @@
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5.text-center
-              h1 Controles de datos maestros
+              h5 Controles de datos maestros
               p Son los controles que evitan o restringen cambios en la información, almacenada en la fuente de datos.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/t2-18.svg')})`}")
 
@@ -205,7 +205,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/t2-19.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5.text-center
-              h1 Mecanismos especiales
+              h5 Mecanismos especiales
               p Controles con el objetivo de distinguir entre mano de obra, visitantes y personas desconocidas, en las instalaciones de la organización.
 
       .col-sm-6.col-xl-3.mb-4.mb-sm-0
@@ -213,7 +213,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/t2-20.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5.text-center
-              h1 Monitoreo
+              h5 Monitoreo
               p Control que se realiza en los indicadores de control de tecnología, con el fin de detectar e identificar faltas de conducta reales, potenciales o de incumplimiento.
               
 

@@ -125,7 +125,7 @@
               p.mb-0 Llevar o mantener un registro único de requisitos legales que sean aplicables, de conformidad con los tipos de normas ISO implementadas en la organización.
           .row(titulo="Usar")
             .col-12.ps-5
-              p Llevar o mantener un registro único de requisitos legales que sean aplicables, de conformidad con los tipos de normas ISO implementadas en la organización.
+              p La utilización de una matriz legal integrada, que sea actualizada de forma permanente.
           .row(titulo="Definir")
             .col-12.ps-5
               p.mb-0 Determinar la información documentada que deberá ser evidenciada, para garantizar el cumplimiento de los requisitos legales relacionados con el sistema de gestión, y dar cumplimiento a los requisitos legales bajo esta lógica.
@@ -140,22 +140,18 @@
       p.mt-3 El proceso de mejora continua de los sistemas de gestión, precisa de una revisión constante de la normativa vigente, además de la actualización de los otros requerimientos del sistema.
       p En relación con los procesos de mejora continua, la identificación, evaluación y seguimiento de las obligaciones legales y demás obligaciones, permite a las organizaciones:
 
-      .col-lg-10
-        .row.justify-content-center.mt-3
-          .col-lg-8
-            TabsA.color-secundario
-              .tarjeta.colorTab.p-3(titulo="Formular acciones")
-                .row.p-4
-                  .col-auto
-                    p Formular acciones de mejora, basadas en el cumplimiento de la normativa vigente y aplicable, haciendo uso de las herramientas tendientes a la identificación y evaluación de la ejecución, además de los diferentes tipos de reportes relacionados con la medición de estas acciones.
-                    
-              .tarjeta.colorTab.p-3(titulo="Brindar garantías")
-                .row.p-4
-                  .col-auto
-                    p Ofrecer una garantía con respecto al cumplimiento de la normativa asociada a los sistemas de gestión y al desarrollo de procesos de mejora continua; de esta manera, las organizaciones estarán encaminadas hacia la obtención de resultados positivos en caso de auditorías o evaluaciones, a nivel interno y externo.
 
-          .col-lg-4
-            img(src='@/assets/curso/temas/tema1/t1-15.svg', alt='' data-aos="flip-left").mb-3  
+    .row.justify-content-center.mt-3
+      .col-lg-6
+        TabsA.color-secundario
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Formular<br> acciones")
+            p Formular acciones de mejora, basadas en el cumplimiento de la normativa vigente y aplicable, haciendo uso de las herramientas tendientes a la identificación y evaluación de la ejecución, además de los diferentes tipos de reportes relacionados con la medición de estas acciones.
+                
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Brindar<br> garantías")
+            p Ofrecer una garantía con respecto al cumplimiento de la normativa asociada a los sistemas de gestión y al desarrollo de procesos de mejora continua; de esta manera, las organizaciones estarán encaminadas hacia la obtención de resultados positivos en caso de auditorías o evaluaciones, a nivel interno y externo.
+
+      .col-lg-4
+        img.img-a.img-t(src='@/assets/curso/temas/tema1/t1-15.svg', alt='' data-aos="flip-left").mb-3  
 
     .row.justify-content-center.mt-5
       ul.vineta-titulos(data-aos="fade-down-left")
@@ -171,7 +167,7 @@
         p.mt-2 Es a partir de la época industrial, que el concepto se transformó, adaptándose como una actividad humana enfocada a la producción de bienes o a la prestación de servicios, abarcando los diferentes procesos que esto implica.
         p Con la aparición y auge de la ciencia administrativa, se homologaron el vocablo empresa y el de organización por tener lugar en ambas, el proceso administrativo. Entonces se comenzó a hablar de administración de empresas (Ramírez, 2009, p.16).
 
-      p.mt-5 Para conocer la clasificación de las empresas, lo invitamos a ver el siguiente video.
+      p.mt-5 Para conocer la clasificación de las empresas, lo invitamos a ver el siguiente video:
 
       .video
         iframe(data-aos="fade-left" width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

@@ -16,22 +16,19 @@
 
     .row.justify-content-center.mt-3
       p Esta norma establece los requisitos que deben cumplir una empresa o una organización, para poner en marcha un Sistema de Gestión de la Calidad, hecho que le aporta a las instituciones:
-      .col-lg-10
-        .row.justify-content-center.mt-3
-          .col-lg-8
-            TabsA.color-secundario
-              .tarjeta.colorTab.p-3(titulo="Beneficios")
-                .row.p-4
-                  .col-auto
-                    p Elementos de valor para demostrar su capacidad para proveer de manera regular, productos y/o servicios que cumplan a cabalidad con los requisitos y expectativas de sus clientes, con la normativa o disposiciones legales, además de los reglamentarios, aplicables a la empresa en cuestión.
-                    
-              .tarjeta.colorTab.p-3(titulo="Rentabilidad")
-                .row.p-4
-                  .col-auto
-                    p Incremento en los niveles de satisfacción de los clientes, apalancada en la eficacia del Sistema de Gestión de la Calidad, que define, ejecuta y hace seguimiento a los procesos relacionados con la mejora continua del sistema, así como el aseguramiento de la conformidad, con base en los requisitos legales y reglamentarios, aplicables.
 
-          .col-lg-4
-            img(src='@/assets/curso/temas/tema3/t3-2.svg', alt='' data-aos="flip-left").mb-3  
+      .row.justify-content-center.mt-3
+        .col-lg-6
+          TabsA.color-secundario
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Beneficios")
+              p Elementos de valor para demostrar su capacidad para proveer de manera regular, productos y/o servicios que cumplan a cabalidad con los requisitos y expectativas de sus clientes, con la normativa o disposiciones legales, además de los reglamentarios, aplicables a la empresa en cuestión.
+                  
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Rentabilidad")
+
+              p Incremento en los niveles de satisfacción de los clientes, apalancada en la eficacia del Sistema de Gestión de la Calidad, que define, ejecuta y hace seguimiento a los procesos relacionados con la mejora continua del sistema, así como el aseguramiento de la conformidad, con base en los requisitos legales y reglamentarios, aplicables.
+
+        .col-lg-4
+          img(src='@/assets/curso/temas/tema3/t3-2.svg', alt='' data-aos="flip-left").mb-3  
 
     .row.justify-content-around.aling-items-center.mt-3
       .col-lg-10
@@ -49,19 +46,19 @@
               .t3.tarjeta-avatar
                 img(src='@/assets/curso/temas/tema3/t3-4.svg' alt='AvatarTop')
                 .tarjeta.tarjeta--amarilla-1.p-5
-                  p.mt-3 Generar mayor confiabilidad en la organización y diferenciación de marca, por parte de sus grupos de interés.
+                  p.mt-3 <b>Generar mayor confiabilidad</b> en la organización y diferenciación de marca, por parte de sus grupos de interés.
             
             .col-sm-6.col-lg-4.mb-4.mb-lg-0
               .t3.tarjeta-avatar
                 img(src='@/assets/curso/temas/tema3/t3-5.svg' alt='AvatarTop')
                 .tarjeta.tarjeta--amarilla-1.p-5
-                  p.mt-3 Brindar mayores niveles de estabilidad, crecimiento y sostenibilidad, a la organización y a sus procesos.
+                  p.mt-3 Brindar <b>mayores niveles de estabilidad</b>, crecimiento y sostenibilidad, a la organización y a sus procesos.
             
             .col-sm-6.col-lg-4.mb-4.mb-lg-0
               .t3.tarjeta-avatar
                 img(src='@/assets/curso/temas/tema3/t3-6.svg' alt='AvatarTop')
                 .tarjeta.tarjeta--amarilla-1.p-5
-                  p.mt-3 Fomentar el involucramiento, participación y liderazgo, por parte de los funcionarios de la organización.
+                  p.mt-3 Fomentar el <b>involucramiento</b>, <b>participación</b> y <b>liderazgo</b>, por parte de los funcionarios de la organización.
 
     .row.justify-content-center.mt-4
       .col-lg-8.col-xs-6

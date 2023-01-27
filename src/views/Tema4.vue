@@ -37,43 +37,31 @@
 
     .row.justify-content-center.mt-3
       p A continuación, se mencionan los documentos obligatorios del SGC, establecidos a través de la norma ISO 9001:2015:
-      .col-lg-10
-        .row.justify-content-center.mt-3
-          .col-lg-8
-            TabsA.color-secundario
-              .tarjeta.colorTab.p-3(titulo="Documento 1")
-                .row.p-4
-                  .col-auto
-                    p Alcance del sistema de gestión de la calidad (cláusula 4.3).
-                    
-              .tarjeta.colorTab.p-3(titulo="Documento 2")
-                .row.p-4
-                  .col-auto
-                    p Información documentada necesaria para apoyar el funcionamiento de los procesos (cláusula 4.4). 
 
-              .tarjeta.colorTab.p-3(titulo="Documento 3")
-                .row.p-4
-                  .col-auto
-                    p Política de calidad (cláusula 5.).
+      .row.justify-content-center.mt-3
+        .col-lg-8
+          TabsA.color-secundario
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Documento 1")
+              p Alcance del sistema de gestión de la calidad (cláusula 4.3).
+                  
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Documento 2")
+              p Información documentada necesaria para apoyar el funcionamiento de los procesos (cláusula 4.4). 
 
-              .tarjeta.colorTab.p-3(titulo="Documento 4")
-                .row.p-4
-                  .col-auto
-                    p Objetivos de calidad (cláusula 6.2).
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Documento 3")
+              p Política de calidad (cláusula 5.).
 
-              .tarjeta.colorTab.p-3(titulo="Documento 5")
-                .row.p-4
-                  .col-auto
-                    p Información documentada requerida y determinada como necesaria (cláusula 7.5).
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Documento 4")
+              p Objetivos de calidad (cláusula 6.2).
 
-              .tarjeta.colorTab.p-3(titulo="Documento 6")
-                .row.p-4
-                  .col-auto
-                    p Adicionalmente, la norma establece en algunas cláusulas que: “la organización debe conservar información documentada”, haciendo referencia con esto, a registros de carácter obligatorio.                               
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Documento 5")
+              p Información documentada requerida y determinada como necesaria (cláusula 7.5).
+
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Documento 6")
+              p Adicionalmente, la norma establece en algunas cláusulas que: “la organización debe conservar información documentada”, haciendo referencia con esto, a registros de carácter obligatorio.                               
 
 
-          .col-lg-4
-            img(src='@/assets/curso/temas/tema4/t4-4.svg', alt='' data-aos="flip-left").mb-3 
+        .col-lg-4
+          img(src='@/assets/curso/temas/tema4/t4-4.svg', alt='' data-aos="flip-left").mb-3 
 
     .row.justify-content-center.mt-4
       p Ahora bien, la norma ISO9001:2015 ha disminuido el nivel de obligaciones documentales del sistema; sin embargo, hay una serie de documentos y registros que son necesarios, para la certificación de la misma:
@@ -210,85 +198,81 @@
                 i.fas.fa-chevron-right.vineta1
                 span Los resultados de las acciones correctivas: cláusula 10.1               
 
+
+    p.mt-3 Y para finalizar, se mencionan los documentos necesarios para dar cumplimiento a los requisitos establecidos por la norma ISO 45001:2018 (nueva ISO, 2015):
+
     .row.justify-content-center.mt-3
-      p Y para finalizar, se mencionan los documentos necesarios para dar cumplimiento a los requisitos establecidos por la norma ISO 45001:2018 (nueva ISO, 2015):
-      .col-lg-10
-        .row.justify-content-center.mt-3
-          .col-lg-8
-            TabsA.color-secundario
-              .tarjeta.colorTab.p-3(titulo="Los requisitos documentales")
-                .row.p-4
-                  .col-auto
-                    p Hacen referencia a:
-                    ul.lista-ul.mb-3
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Alcance del Sistema de Gestión de Seguridad y Salud en el Trabajo.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Política de seguridad y salud en el trabajo.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Definir los roles y responsabilidades dentro de la organización.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Los riesgos y las oportunidades en el Sistema de Gestión de Seguridad y Salud en el Trabajo.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Los procesos necesarios para abordar los riesgos y las oportunidades.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Metodología y criterios para la evaluación de los riesgos en la zona de trabajo.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Los objetivos y los planes del Sistema de Gestión de Seguridad y Salud en el Trabajo.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Comunicación.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Controles operacionales.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span La preparación para emergencias y los procesos de respuesta.
-                    
-              .tarjeta.colorTab.p-3(titulo="Los registros obligatorios")
-                .row.p-4
-                  .col-auto
-                    p Hacen referencia a:
-                    ul.lista-ul.mb-3
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Requisitos legales y otras aplicaciones.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Deben quedar registros de las capacitaciones, la experiencia y las cualificaciones.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Los resultados del monitoreo y la medición.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Calibración y verificación de los equipos de seguimiento y medición.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Evaluación de las obligaciones de cumplimiento.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Auditoría interna al Sistema de Gestión de Seguridad y Salud en el Trabajo.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Registro de los resultados de las auditorías internas.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Los resultados de las revisiones por parte de la dirección de la organización.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Incidentes y no conformidades.
-                      li 
-                        i.fas.fa-chevron-right.vineta1
-                        span Los resultados de las acciones correctivas. 
-          .col-lg-4
-            img(src='@/assets/curso/temas/tema4/t4-6.svg', alt='' data-aos="flip-left").mb-3                     
+      .col-lg-8
+        TabsA.color-secundario
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Los requisitos<br> documentales")
+            p Hacen referencia a:
+            ul.lista-ul.mb-3
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Alcance del Sistema de Gestión de Seguridad y Salud en el Trabajo.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Política de seguridad y salud en el trabajo.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Definir los roles y responsabilidades dentro de la organización.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Los riesgos y las oportunidades en el Sistema de Gestión de Seguridad y Salud en el Trabajo.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Los procesos necesarios para abordar los riesgos y las oportunidades.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Metodología y criterios para la evaluación de los riesgos en la zona de trabajo.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Los objetivos y los planes del Sistema de Gestión de Seguridad y Salud en el Trabajo.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Comunicación.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Controles operacionales.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span La preparación para emergencias y los procesos de respuesta.
+                
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Los registros<br> obligatorios")
+            p Hacen referencia a:
+            ul.lista-ul.mb-3
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Requisitos legales y otras aplicaciones.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Deben quedar registros de las capacitaciones, la experiencia y las cualificaciones.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Los resultados del monitoreo y la medición.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Calibración y verificación de los equipos de seguimiento y medición.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Evaluación de las obligaciones de cumplimiento.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Auditoría interna al Sistema de Gestión de Seguridad y Salud en el Trabajo.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Registro de los resultados de las auditorías internas.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Los resultados de las revisiones por parte de la dirección de la organización.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Incidentes y no conformidades.
+              li 
+                i.fas.fa-chevron-right.vineta1
+                span Los resultados de las acciones correctivas. 
+      .col-lg-4
+        img(src='@/assets/curso/temas/tema4/t4-6.svg', alt='' data-aos="flip-left").mb-3                     
 
     .row.justify-content-center.mt-4
       .col-lg-10.col-xs-6
