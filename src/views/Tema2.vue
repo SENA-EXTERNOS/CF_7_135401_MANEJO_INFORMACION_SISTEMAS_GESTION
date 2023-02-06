@@ -162,7 +162,7 @@
 
     .row.justify-content-center.mt-4
       .cajon.color-1.p-4
-        p.mb-0 Teniendo en cuenta el desarrollo de la arquitectura tecnológica, es necesario establecer un marco común de entendimiento para garantizar que la totalidad de los involucrados, tengan claridad con respecto a los objetivos y los pasos a seguir, a lo largo del proceso. 
+        p.mb-0 Teniendo en cuenta el desarrollo de la arquitectura tecnológica, es necesario establecer un marco común de entendimiento para garantizar que la totalidad de los involucrados, tengan claridad con respecto a los objetivos y los pasos a seguir, a lo largo del proceso: 
 
     .row.mt-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
