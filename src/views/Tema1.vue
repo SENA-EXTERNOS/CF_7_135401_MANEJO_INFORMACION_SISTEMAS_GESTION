@@ -143,11 +143,11 @@
 
     .row.justify-content-center.mt-3
       .col-lg-6
-        TabsA.color-secundario
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Formular<br> acciones")
+        TabsC.color-secundario
+          .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Formular acciones")
             p Formular acciones de mejora, basadas en el cumplimiento de la normativa vigente y aplicable, haciendo uso de las herramientas tendientes a la identificación y evaluación de la ejecución, además de los diferentes tipos de reportes relacionados con la medición de estas acciones.
                 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Brindar<br> garantías")
+          .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Brindar garantías")
             p Ofrecer una garantía con respecto al cumplimiento de la normativa asociada a los sistemas de gestión y al desarrollo de procesos de mejora continua; de esta manera, las organizaciones estarán encaminadas hacia la obtención de resultados positivos en caso de auditorías o evaluaciones, a nivel interno y externo.
 
       .col-lg-4

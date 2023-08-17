@@ -14,7 +14,7 @@
       .col-lg-7
         p El cumplimiento de los estándares de calidad aporta al desarrollo de las diferentes organizaciones y a su entorno. Las normas vigentes a partir del 2015, cuentan con una estructura común, cuyo objetivo es el de facilitar la integración de los sistemas para que, de esta forma, el SG actúe como la columna vertebral de todos los procesos organizacionales, evitando reprocesos, desgaste de las diferentes áreas y los posibles incumplimientos u omisiones a los elementos normativos y legales vigentes.      
         p La aplicación de las normas ISO en las empresas, propende por la generación de condiciones para el cumplimiento de los requisitos del cliente y la legislación vigente en los términos que el tipo de norma establezca, de acuerdo con su alcance.
-
+    p.mb-5 La incorporación de las normas en las organizaciones y la articulación en los Sistemas Integrados de Gestión, manifiesta un énfasis especial en:
     .row.justify-content-center.align-items-center.align-items-lg-stretch.mt-5
       .col-lg-10
         .row

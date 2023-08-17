@@ -18,7 +18,7 @@
       p Esta norma establece los requisitos que deben cumplir una empresa o una organización, para poner en marcha un Sistema de Gestión de la Calidad, hecho que le aporta a las instituciones:
 
       .row.justify-content-center.mt-3
-        .col-lg-6
+        .col-lg-8
           TabsA.color-secundario
             .tarjeta.color-acento-botones--borde.p-4(titulo="Beneficios")
               p Elementos de valor para demostrar su capacidad para proveer de manera regular, productos y/o servicios que cumplan a cabalidad con los requisitos y expectativas de sus clientes, con la normativa o disposiciones legales, además de los reglamentarios, aplicables a la empresa en cuestión.
