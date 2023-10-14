@@ -196,7 +196,7 @@ export default {
       referencia:
         'ISOTools. (s.f.). <em>Herramientas tecnológicas para la gestión de GRC.</em>',
       link:
-        'https://www.isotools.org/2020/10/30/herramientas-tecnologicas-para-la-gestion-de-grc/',
+        'https://www.isotools.us/2020/10/30/herramientas-tecnologicas-para-la-gestion-de-grc/',
     },
     {
       referencia:
